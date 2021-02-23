@@ -14,6 +14,4 @@ Vue.js
 Bootstrap
 
 
-Referencia:
-
-https://www.codemag.com/Article/2101021/A-Real-World-ExpressJS-and-TypeScript-Application
+Referencia: https://www.codemag.com/Article/2101021/A-Real-World-ExpressJS-and-TypeScript-Application
