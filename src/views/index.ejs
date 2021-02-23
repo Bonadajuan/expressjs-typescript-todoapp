@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Todo application</title>    
+</head>
+
+<body>
+    <%- include('partials/header') %>
+    <h1>My Todos</h1>
+
+    <div class="container-fluid px-lg-5" id="app">
+        <div class="row" v-for="todo in todos">
+            <div class="card shadow col-lg-12 col px-lg-5">
+                <div class="card-body">
+                    <span v-if="todo.isDone">✅</span>
+                    <span v-else>❌</span>
+                    {{todo.id}} : {{todo.title}}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Primero, es una buena idea cargar todos estos helper archivos después de que se procese la página. 
+        Esto ayuda al rendimiento percibido. 
+        La segunda razón es que vue.js debe cargarse después de establecer la estructura de la página. -->
+
+    <%- include('partials/common') %>
+    <%- include('partials/footer') %>
+</body>
+
+</html>
