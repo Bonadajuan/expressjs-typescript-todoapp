@@ -1,6 +1,17 @@
-<<<<<<< HEAD
 # ExpressJS and TypeScript - a simple project template
 
+<h3> Tecnologias y programas utilizados <h3/>
+  
+1. VS CODE
+2. NODEjs
+3. ExpressJS
+4. TypeScript 
+5. Vue.js 
+6. Bootstrap
+
+Referencia: https://www.codemag.com/Article/2101021/A-Real-World-ExpressJS-and-TypeScript-Application
+
+--------------------------------------------------------------
 Instructions:
 
 1. Clone this repo
@@ -12,22 +23,5 @@ Instructions:
 To run in debug mode, simply hit F5
 
 You should have a simple express js app running, you can now edit the code in the src folder, and see it reflect in your browser.
-=======
-# expressjs-typescript-todoapp
-<h3> Tecnologias y programas utilizados <h3/>
-  
-VS CODE
-
-NODEjs
-
-ExpressJS
-
-TypeScript 
-
-Vue.js 
-
-Bootstrap
 
 
-Referencia: https://www.codemag.com/Article/2101021/A-Real-World-ExpressJS-and-TypeScript-Application
->>>>>>> 427c94bf8707a7a61c36e2007efd16308836c5fa
